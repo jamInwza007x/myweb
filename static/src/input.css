@@ -1,0 +1,10 @@
+/* static/src/input.css */
+@import "tailwindcss";
+@plugin "daisyui";
+
+/* บอก Tailwind ให้สแกนหา class ในไฟล์ html */
+@source "../../templates"; 
+
+@theme {
+  --font-sans: "Inter", sans-serif;
+}
